@@ -23,15 +23,15 @@ public:
 	void FillSex();
 	void FillInstitute();
 	void FillProgram();
-};
 
-//Надо реализовать Fill
+	void DrowStuds();
 
-
-class Drow : protected Student {
-	void DrowName();
+	int DrowName();
 	void DrowDate();
 	void DrowSex();
-	void DrowInstitute();
 	void DrowProgram();
 };
+
+//Надо реализовать Fill/Drow
+
+

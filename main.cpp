@@ -33,10 +33,17 @@ int main() {
 	Student student;
 
 	while (1){
+		system("pause");
 		switch (MainMenu()) {
 		case 1:
-			student.AddStud();
+			student.AddStud(); break;
+		case 2:
+			student.DrowStuds(); break;
+		case 6:
+			return 0;
 		}
+		
+
 
 	}
 	//Тест
